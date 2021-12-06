@@ -1,0 +1,65 @@
+/* Extends */
+
+/* Tipografías */
+
+%tit1 {
+    font-family: 'Noto Serif', serif; font-weight: 700;
+    font-size: 44px;};
+
+  %tit2 {
+    color: white;
+    font-family: 'Raleway', sans-serif; font-weight: lighter;  }
+
+    %titleSec {
+      font-family: 'Noto Serif', serif; font-weight: 400;
+      text-align: center;
+      letter-spacing: 6px;
+      ;
+      font-size: 34px;};
+
+      %titbox {
+        font-size: 48px;
+        color: #541726;
+          background-color: #fff;
+          width: 500px;
+          box-shadow: 1px 0px 0px 1px #541726;
+          ;
+      }
+    
+
+    %quotes {
+      font-family: 'Noto Serif', serif;
+      letter-spacing: 1.5px;
+    }
+
+    %subquotes {
+      font-family: 'Noto Serif', serif;
+      letter-spacing: 1.5px;
+    }
+
+
+    %textocajas {
+
+    text-align: justify;
+    width: 450px;
+    font-family: 'Raleway', sans-serif; font-style: italic; font-weight: bold;
+
+    }
+
+    %textocajas2 {
+
+      text-align: justify;
+      width: 25%;
+      font-family: 'Raleway', sans-serif; font-style: italic; font-weight: bold;
+  
+      }
+
+    /* botones */
+
+
+    %buttonfill {
+        position: absolute;
+        overflow: hidden;
+        z-index: 9;           
+        }
+ 

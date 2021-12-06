@@ -1,0 +1,845 @@
+@charset "UTF-8";
+/* COLORES Branding */
+/* Orden en desaturación con negro */
+/* COLORES Branding */
+/* Orden en desaturación con negro */
+/* MAPAS */
+/* Divisores */
+/* COLORES Branding */
+/* Orden en desaturación con negro */
+/*Media Querys */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@media screen and (max-width: 768px) {
+  #vineria11 {
+    width: 90vw;
+    padding-bottom: 10%;
+  }
+
+  .item1 {
+    width: 110%;
+  }
+
+  .underlineContainer {
+    display: none;
+  }
+
+  .mapa {
+    display: none;
+  }
+
+  .wapp {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .tiraPromo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .titulo {
+    font-size: 19px;
+    position: absolute;
+    left: 12%;
+  }
+
+  .textoTitle {
+    font-size: 15px;
+  }
+
+  .banner-site {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .redesRoll {
+    display: none;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .underlineContainer {
+    display: none;
+  }
+
+  .tiraPromo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .quoteMain {
+    font-size: 15px;
+  }
+}
+/* Operadores */
+.sec2 .titleSection {
+  font-size: 60px;
+}
+
+/* Variables */
+/* Serif */
+/* Sans Serif */
+/* Extends */
+/* Tipografías */
+.titulo {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.textoTitle {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+}
+
+.titleSection {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 34px;
+}
+
+.h2b {
+  font-size: 48px;
+  color: #541726;
+  background-color: #fff;
+  width: 500px;
+  box-shadow: 1px 0px 0px 1px #541726;
+}
+
+.quoteMain {
+  font-family: "Noto Serif", serif;
+  letter-spacing: 1.5px;
+}
+
+.textoUnder {
+  text-align: justify;
+  width: 450px;
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* botones */
+.bfill3 {
+  position: absolute;
+  overflow: hidden;
+  z-index: 9;
+}
+
+/* COLORES Branding */
+/* Orden en desaturación con negro */
+/* COLORES Branding */
+/* Orden en desaturación con negro */
+/* Variables */
+/* Extends */
+/* Tipografías */
+.titulo {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.textoTitle {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+}
+
+.titleSection {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 34px;
+}
+
+.h2b {
+  font-size: 48px;
+  color: #541726;
+  background-color: #fff;
+  width: 500px;
+  box-shadow: 1px 0px 0px 1px #541726;
+}
+
+.quoteMain {
+  font-family: "Noto Serif", serif;
+  letter-spacing: 1.5px;
+}
+
+.textoUnder {
+  text-align: justify;
+  width: 450px;
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* botones */
+.bfill3 {
+  position: absolute;
+  overflow: hidden;
+  z-index: 9;
+}
+
+.footerBottom {
+  padding: 20px;
+  background-color: #541726;
+}
+
+p {
+  font-size: 12px;
+  font-family: "Noto Serif", serif;
+  text-align: center;
+}
+
+.iconSocial {
+  height: 30px;
+  width: 30px;
+  fill: white;
+}
+
+.titleFooter {
+  color: #C7A34D;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.logofoo {
+  align-items: center;
+}
+
+.ulfooterd, li {
+  list-style-type: none;
+  padding-top: 10px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.FormSend {
+  padding: auto;
+  color: #000;
+  background-color: #C7A34D;
+}
+
+.f1:visited, .f1:link {
+  color: white;
+}
+
+/* COLORES Branding */
+/* Orden en desaturación con negro */
+/* COLORES Branding */
+/* Orden en desaturación con negro */
+/* Variables */
+/* MENÚ */
+.navbar {
+  background-color: #541726;
+}
+.navbar .nav-link {
+  font-size: 18px;
+  color: #C7A34D;
+}
+.navbar .nav-link:visited, .navbar .nav-link:link {
+  color: #C7A34D;
+}
+.navbar .nav-link:visited:hover, .navbar .nav-link:link:hover {
+  color: white;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: inline-block;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Variables */
+/* COLORES Branding */
+/* Orden en desaturación con negro */
+/* MAPAS */
+/* Divisores */
+/* Extends */
+/* Tipografías */
+.titulo {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.textoTitle {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+}
+
+.titleSection {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 34px;
+}
+
+.h2b {
+  font-size: 48px;
+  color: #541726;
+  background-color: #fff;
+  width: 500px;
+  box-shadow: 1px 0px 0px 1px #541726;
+}
+
+.quoteMain {
+  font-family: "Noto Serif", serif;
+  letter-spacing: 1.5px;
+}
+
+.textoUnder {
+  text-align: justify;
+  width: 450px;
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* botones */
+.bfill3 {
+  position: absolute;
+  overflow: hidden;
+  z-index: 9;
+}
+
+.imagenPrincipal {
+  width: 100%;
+  z-index: 1;
+  background-image: url(Assets/banner2.jpg);
+}
+
+.titulo {
+  color: #C7A34D;
+  text-align: center;
+  position: absolute;
+  z-index: 0;
+  top: 19%;
+  right: 61%;
+}
+
+.textoTitle {
+  text-align: justify;
+  font-size: 16px;
+  width: 30%;
+  position: absolute;
+  top: 25%;
+  right: 59.6%;
+  display: flex;
+}
+
+.underlineContainer {
+  background-color: #420517;
+  height: 4vmax;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.textoPremio {
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  right: 300px;
+}
+
+.enoturismoTitle {
+  text-decoration: underline;
+}
+
+.bfill {
+  position: absolute;
+  top: 35%;
+  left: 10.2%;
+  overflow: hidden;
+  z-index: 9;
+}
+.bfill .btn-primary {
+  color: #fff;
+  border-color: #C7A34D;
+}
+
+.btn:before {
+  content: "";
+  background: #541726;
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  -webkit-transition: all 1.5s ease-in-out 0s;
+  -moz-transition: all 1.5s ease-in-out 0s;
+  -ms-transition: all 1.5s ease-in-out 0s;
+  -o-transition: all 1.5s ease-in-out 0s;
+  transition: all 1.5s ease-in-out 0s;
+}
+
+.btn:hover:before {
+  width: 100%;
+}
+
+.quoteMain {
+  font-size: 1.8rem;
+  padding-top: 10%;
+}
+
+/*Contacto*/
+.oneContact {
+  padding: 2%;
+}
+
+.redesIcons {
+  margin: 40px;
+  text-align: center;
+}
+.redesIcons .fas {
+  color: #966427;
+  font-size: 1.2rem;
+}
+
+.f1hover:active {
+  color: white;
+}
+
+p {
+  color: black;
+  font-size: 16px;
+}
+
+.p2 {
+  color: #966427;
+}
+
+.p3 {
+  color: #420517;
+}
+
+/*Página Vinos*/
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  column-gap: 2px;
+  row-gap: 2px;
+  justify-content: center;
+}
+
+.article {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Variables */
+/* COLORES Branding */
+/* Orden en desaturación con negro */
+/* MAPAS */
+/* Divisores */
+/* Extends */
+/* Tipografías */
+.titulo {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.textoTitle {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+}
+
+.titleSection {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 34px;
+}
+
+.h2b {
+  font-size: 48px;
+  color: #541726;
+  background-color: #fff;
+  width: 500px;
+  box-shadow: 1px 0px 0px 1px #541726;
+}
+
+.quoteMain {
+  font-family: "Noto Serif", serif;
+  letter-spacing: 1.5px;
+}
+
+.textoUnder {
+  text-align: justify;
+  width: 450px;
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* botones */
+.bfill3 {
+  position: absolute;
+  overflow: hidden;
+  z-index: 9;
+}
+
+/* COLORES Branding */
+/* Orden en desaturación con negro */
+/*Media Querys */
+@media screen and (max-width: 768px) {
+  #vineria11 {
+    width: 90vw;
+    padding-bottom: 10%;
+  }
+
+  .item1 {
+    width: 110%;
+  }
+
+  .underlineContainer {
+    display: none;
+  }
+
+  .mapa {
+    display: none;
+  }
+
+  .wapp {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .tiraPromo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .titulo {
+    font-size: 19px;
+    position: absolute;
+    left: 12%;
+  }
+
+  .textoTitle {
+    font-size: 15px;
+  }
+
+  .banner-site {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .redesRoll {
+    display: none;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .underlineContainer {
+    display: none;
+  }
+
+  .tiraPromo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .quoteMain {
+    font-size: 15px;
+  }
+}
+/* Operadores */
+.sec2 .titleSection {
+  font-size: 60px;
+}
+
+.titleSection {
+  padding: 5% 0;
+}
+
+.bfill3 {
+  left: 10%;
+}
+
+.col-lg-6 {
+  text-align: center;
+}
+
+.cajaTexto {
+  position: relative;
+  bottom: 30px;
+}
+
+.textoUnder {
+  padding-left: 10%;
+}
+
+.d-zflex, justify-content-md-center {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
+/*Carrousel de sección dos*/
+.tiraPromo {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1% 0 6% 0;
+}
+
+.tiraPromo > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo {
+  width: 100%;
+}
+
+.tres {
+  padding-top: 3%;
+}
+
+.wapp {
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+}
+
+.iconFb {
+  position: fixed;
+  left: 0rem;
+  top: 20%;
+  background-color: #C7A34D;
+  transition: 1s;
+  border-radius: 0% 25% 25% 0%;
+}
+
+.iconIg {
+  position: fixed;
+  left: 0rem;
+  top: 27%;
+  border-radius: 0% 25% 25% 0%;
+  background-color: #C7A34D;
+  transition: 1s;
+}
+
+.iconTiktok {
+  position: fixed;
+  left: 0rem;
+  top: 34%;
+  border-radius: 0% 25% 25% 0%;
+  transition: 1s;
+  background-color: #C7A34D;
+}
+
+.iconFb:hover {
+  background-color: #673918;
+}
+
+.iconIg:hover {
+  background-color: #673918;
+}
+
+.iconTiktok:hover {
+  background-color: #673918;
+}
+
+.container s1 {
+  background-image: url(Assets/banner2.jpg);
+}
+
+/* Variables */
+/* COLORES Branding */
+/* Orden en desaturación con negro */
+/* MAPAS */
+/* Divisores */
+/* Extends */
+/* Tipografías */
+.titulo {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: 44px;
+}
+
+.textoTitle {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+}
+
+.titleSection {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 34px;
+}
+
+.h2b {
+  font-size: 48px;
+  color: #541726;
+  background-color: #fff;
+  width: 500px;
+  box-shadow: 1px 0px 0px 1px #541726;
+}
+
+.quoteMain {
+  font-family: "Noto Serif", serif;
+  letter-spacing: 1.5px;
+}
+
+.textoUnder {
+  text-align: justify;
+  width: 450px;
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* botones */
+.bfill3 {
+  position: absolute;
+  overflow: hidden;
+  z-index: 9;
+}
+
+/* COLORES Branding */
+/* Orden en desaturación con negro */
+/*Media Querys */
+@media screen and (max-width: 768px) {
+  #vineria11 {
+    width: 90vw;
+    padding-bottom: 10%;
+  }
+
+  .item1 {
+    width: 110%;
+  }
+
+  .underlineContainer {
+    display: none;
+  }
+
+  .mapa {
+    display: none;
+  }
+
+  .wapp {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .tiraPromo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .titulo {
+    font-size: 19px;
+    position: absolute;
+    left: 12%;
+  }
+
+  .textoTitle {
+    font-size: 15px;
+  }
+
+  .banner-site {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .redesRoll {
+    display: none;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .underlineContainer {
+    display: none;
+  }
+
+  .tiraPromo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .quoteMain {
+    font-size: 15px;
+  }
+}
+/* Tarjetas de productos */
+.producto {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 14px;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+}
+
+.precio {
+  color: grey;
+  font-size: 22px;
+}
+
+.producto button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #C7A34D;
+  font-family: "Cabin", sans-serif;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.producto button:hover {
+  opacity: 0.7;
+}
+
+.producto:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.tiraProductos {
+  background-color: #e6d5ae;
+}
+
+/*Cuadrícula*/
+.contenedor {
+  margin-bottom: 5%;
+}
+
+.galeria {
+  padding-top: 2%;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+}
+.galeria .imagen img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

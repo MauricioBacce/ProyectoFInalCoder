@@ -1,0 +1,12 @@
+@import "../base/listas";
+
+/* MAPAS */ 
+/* Divisores */
+
+
+$underline: (
+    color-underline: nth($list: $bordos, $n:2 ),
+    height-underline: 4vmax,
+    display-underline: flex,
+);
+

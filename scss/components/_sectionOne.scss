@@ -1,0 +1,149 @@
+
+@import "../base/variables";
+@import "../base/mapas";
+@import '../base/extends';
+
+
+.imagenPrincipal {
+    width: 100%;
+    z-index: 1;
+    background-image: url(Assets/banner2.jpg);
+
+}
+
+.titulo {
+      color: $menuItemColor;
+    text-align: center;
+    position: absolute;
+    z-index: 0;
+    top: 19%;
+    right: 61%;
+    @extend %tit1;
+}
+
+.textoTitle {
+    text-align: justify;
+    font-size: 16px;
+    width: 30%;
+    position: absolute;
+    top: 25%;
+    right: 59.6%;
+    display: flex;
+    @extend %tit2;
+}
+
+
+.underlineContainer {
+    background-color: map-get($map: $underline, $key:color-underline );
+    height: map-get($map: $underline, $key:height-underline );
+    align-items: center;
+    justify-content: space-evenly;
+    display: map-get($map: $underline, $key:display-underline );
+}
+
+
+.textoPremio {
+    color: #fff;
+    font-size: 25px;
+position: relative;
+right: 300px;
+
+}
+
+.enoturismoTitle {
+    text-decoration: underline;
+}
+
+.bfill {
+    position: absolute;
+    top: 35%;
+    left: 10.2%;
+    overflow: hidden;
+    z-index: 9;
+    .btn-primary {
+        color: #fff;
+        border-color: #C7A34D;
+        ;
+    }
+}
+
+.btn:before {
+    content: "";
+    background: #541726;
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: all 1.5s ease-in-out 0s;
+    -moz-transition: all 1.5s ease-in-out 0s;
+    -ms-transition: all 1.5s ease-in-out 0s;
+    -o-transition: all 1.5s ease-in-out 0s;
+    transition: all 1.5s ease-in-out 0s;
+}
+.btn:hover:before {
+    width: 100%;
+}
+
+.quoteMain {
+    font-size: 1.8rem;
+    padding-top: 10%;
+    @extend %quotes;
+}
+
+
+
+/*Contacto*/
+
+.oneContact {
+    padding: 2%;
+}
+
+.redesIcons {
+    margin: 40px;
+    text-align: center;
+    .fas {
+        color: nth($list: $dorados, $n:2 );
+        font-size: 1.2rem;
+
+    }
+     ;}
+
+.f1 { 
+    &hover:active {
+        color: white;
+    }
+}
+
+p {
+    color: black;
+    font-size: 16px;
+}
+
+.p2 {
+    color: nth($list: $dorados, $n:2 );
+}
+
+.p3 {
+    color: nth($list: $bordos, $n:2 );
+}
+
+
+
+/*Página Vinos*/
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    column-gap: 2px;
+    row-gap: 2px;
+    justify-content: center;
+}
+
+.article {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}   
+

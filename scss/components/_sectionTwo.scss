@@ -1,0 +1,122 @@
+
+@import "../base/variables";
+@import "../base/mapas";
+@import '../base/extends';
+@import '../base/mixins';
+@import '../base/mediasquery';
+@import '../base/operators';
+
+
+.titleSection {
+    padding: 5% 0;
+    @extend %titleSec;
+}
+
+.h2b {
+    @extend %titbox;
+}
+
+
+
+.bfill3 {
+    left: 10%;
+    @extend %buttonfill; 
+}
+
+
+.col-lg-6
+ {
+text-align: center;}
+
+.cajaTexto {
+    position: relative;
+    bottom: 30px; 
+}
+
+.textoUnder
+{  padding-left: 10%;
+   @extend %textocajas;
+}
+
+
+.d-zflex, justify-content-md-center {
+    font-size: 35px;
+    text-align: center;
+    ; font-weight: bold;
+    padding-bottom: 2%;
+
+}
+
+/*Carrousel de sección dos*/
+
+.tiraPromo {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1% 0 6% 0;
+}
+
+.tiraPromo > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo {
+    width: 100%;
+}
+
+.tres {
+    padding-top: 3%;
+}
+
+.wapp {
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+}
+
+.iconFb {
+    position: fixed;
+    left: 0rem;
+    top: 20%;
+    background-color: #C7A34D;
+    transition: 1s;
+    border-radius: 0% 25% 25% 0%;
+
+}
+
+.iconIg {
+    position: fixed;
+    left: 0rem;
+    top: 27%;
+    border-radius: 0% 25% 25% 0%;
+    background-color: #C7A34D;
+    transition: 1s;
+
+}
+
+.iconTiktok {
+    position: fixed;
+    left: 0rem;
+    top: 34%;
+    border-radius: 0% 25% 25% 0%;
+transition: 1s;
+background-color: #C7A34D;
+}
+
+.iconFb:hover{
+background-color: #673918;
+}
+
+.iconIg:hover{
+    background-color: #673918;
+     }
+
+     .iconTiktok:hover{
+        background-color: #673918;
+         }
+
+         .container s1 {
+             background-image: url(Assets/banner2.jpg)
+         }
