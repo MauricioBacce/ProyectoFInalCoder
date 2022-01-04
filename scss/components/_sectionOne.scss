@@ -4,10 +4,10 @@
 @import '../base/extends';
 
 
-.imagenPrincipal {
-    z-index: 1;
-    background-image: url(Assets/banner2.jpg);
 
+.bannerPrincipalOne {
+    width: 100%;
+    z-index: 1;
 }
 
 .img {
@@ -63,6 +63,7 @@ right: 300px;
     left: 10.2%;
     overflow: hidden;
     z-index: 9;
+    padding-bottom: 5%;
     .btn-primary {
         color: #fff;
         border-color: #C7A34D;
@@ -149,4 +150,3 @@ p {
     height: 200px;
     object-fit: cover;
 }   
-

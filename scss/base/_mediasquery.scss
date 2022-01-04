@@ -5,13 +5,16 @@
     #vineria11 {
         width: 90vw;
         padding-bottom: 10%;
+        padding-top: 6%;
     }
 
     .item1 {
         width: 110%;
    }
 
-    
+   .tres {
+       padding-top: 10%;
+   }
     .underlineContainer {
         display: none;
     }
@@ -41,6 +44,7 @@
         font-size: 15px;
     }
 
+    
 
   .banner-site {
      display: grid;
@@ -50,6 +54,12 @@
   .redesRoll {
       display: none;
   }
+
+  .bfill3 {
+    padding-bottom: 40%;
+}
+
+
 
 
 }
@@ -65,5 +75,14 @@
     }
     .quoteMain {
     font-size: 15px;    }
+
+    .redesRoll  {
+        display: none;    }
+
+   .textosInicio {
+       display: none;
+   }
+      
+
 }
 

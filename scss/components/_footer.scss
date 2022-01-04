@@ -33,9 +33,6 @@ text-align: left; }
 align-items: center;}
 
 
-
-
-
 .ulfooterd, li {
     list-style-type: none;
     padding-top: 10px;
@@ -52,3 +49,11 @@ align-items: center;}
     .f1:visited, .f1:link {
         color: white;
     }
+
+
+    
+    .underFooter {
+        color: nth($list: $dorados, $n:1 );
+        font-size: 11px;
+    }
+    

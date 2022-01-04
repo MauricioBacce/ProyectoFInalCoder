@@ -14,10 +14,15 @@
   #vineria11 {
     width: 90vw;
     padding-bottom: 10%;
+    padding-top: 6%;
   }
 
   .item1 {
     width: 110%;
+  }
+
+  .tres {
+    padding-top: 10%;
   }
 
   .underlineContainer {
@@ -58,6 +63,10 @@
   .redesRoll {
     display: none;
   }
+
+  .bfill3 {
+    padding-bottom: 40%;
+  }
 }
 @media screen and (max-width: 1500px) {
   .underlineContainer {
@@ -71,10 +80,18 @@
   .quoteMain {
     font-size: 15px;
   }
+
+  .redesRoll {
+    display: none;
+  }
+
+  .textosInicio {
+    display: none;
+  }
 }
 /* Operadores */
 .sec2 .titleSection {
-  font-size: 60px;
+  font-size: 44px;
 }
 
 /* Variables */
@@ -230,6 +247,11 @@ p {
   color: white;
 }
 
+.underFooter {
+  color: #C7A34D;
+  font-size: 11px;
+}
+
 /* COLORES Branding */
 /* Orden en desaturación con negro */
 /* COLORES Branding */
@@ -313,10 +335,13 @@ p {
   z-index: 9;
 }
 
-.imagenPrincipal {
+.bannerPrincipalOne {
   width: 100%;
   z-index: 1;
-  background-image: url(Assets/banner2.jpg);
+}
+
+.img {
+  width: 100%;
 }
 
 .titulo {
@@ -363,6 +388,7 @@ p {
   left: 10.2%;
   overflow: hidden;
   z-index: 9;
+  padding-bottom: 5%;
 }
 .bfill .btn-primary {
   color: #fff;
@@ -502,10 +528,15 @@ p {
   #vineria11 {
     width: 90vw;
     padding-bottom: 10%;
+    padding-top: 6%;
   }
 
   .item1 {
     width: 110%;
+  }
+
+  .tres {
+    padding-top: 10%;
   }
 
   .underlineContainer {
@@ -546,6 +577,10 @@ p {
   .redesRoll {
     display: none;
   }
+
+  .bfill3 {
+    padding-bottom: 40%;
+  }
 }
 @media screen and (max-width: 1500px) {
   .underlineContainer {
@@ -559,10 +594,18 @@ p {
   .quoteMain {
     font-size: 15px;
   }
+
+  .redesRoll {
+    display: none;
+  }
+
+  .textosInicio {
+    display: none;
+  }
 }
 /* Operadores */
 .sec2 .titleSection {
-  font-size: 60px;
+  font-size: 44px;
 }
 
 .titleSection {
@@ -726,10 +769,15 @@ p {
   #vineria11 {
     width: 90vw;
     padding-bottom: 10%;
+    padding-top: 6%;
   }
 
   .item1 {
     width: 110%;
+  }
+
+  .tres {
+    padding-top: 10%;
   }
 
   .underlineContainer {
@@ -770,6 +818,10 @@ p {
   .redesRoll {
     display: none;
   }
+
+  .bfill3 {
+    padding-bottom: 40%;
+  }
 }
 @media screen and (max-width: 1500px) {
   .underlineContainer {
@@ -782,6 +834,14 @@ p {
 
   .quoteMain {
     font-size: 15px;
+  }
+
+  .redesRoll {
+    display: none;
+  }
+
+  .textosInicio {
+    display: none;
   }
 }
 /* Tarjetas de productos */
