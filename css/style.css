@@ -88,6 +88,10 @@
   .textosInicio {
     display: none;
   }
+
+  .hamptonsBanner {
+    z-index: -1;
+  }
 }
 /* Operadores */
 .sec2 .titleSection {
@@ -466,6 +470,55 @@ p {
   object-fit: cover;
 }
 
+.vinosText {
+  font: "Raleway", sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  padding: 2%;
+}
+
+/* Finca */
+.cardsFinca {
+  margin-top: 50%;
+}
+
+.vidFinca {
+  background-color: #020024;
+  background: linear-gradient(197deg, #020024 0%, #aa8241 0%, white 100%);
+}
+
+.fincaText {
+  font: "Raleway", sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  padding-bottom: 5%;
+}
+
+/* Enoturismo */
+.titleEnoturismo {
+  padding-top: 2%;
+  font-size: 22px;
+  font-family: "Noto Serif", serif;
+  font-weight: bolder;
+}
+
+.enoText {
+  font: "Raleway", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.enoSubtitle {
+  font: "Noto Serif", serif;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn-warning {
+  margin: 2%;
+}
+
 /* Variables */
 /* COLORES Branding */
 /* Orden en desaturación con negro */
@@ -601,6 +654,10 @@ p {
 
   .textosInicio {
     display: none;
+  }
+
+  .hamptonsBanner {
+    z-index: -1;
   }
 }
 /* Operadores */
@@ -842,6 +899,10 @@ p {
 
   .textosInicio {
     display: none;
+  }
+
+  .hamptonsBanner {
+    z-index: -1;
   }
 }
 /* Tarjetas de productos */
